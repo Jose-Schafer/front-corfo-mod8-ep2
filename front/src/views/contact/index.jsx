@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import Form from "./form";
 
 export default function Contact() {

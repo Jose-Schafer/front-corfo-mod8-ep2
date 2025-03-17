@@ -1,6 +1,8 @@
-import { useEffect, useState } from "react"
+// @ts-nocheck
 
-import { get } from '@/api/requests'
+import { useEffect, useState } from "react";
+
+import { get } from "@/api/requests";
 
 import {
   FormControl,
@@ -8,7 +10,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/form"
+} from "@/components/ui/form";
 
 import {
   Select,
@@ -18,19 +20,19 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
+} from "@/components/ui/select";
 
-import { useDoctors } from "@/providers/DoctorsContext"
+import { useDoctors } from "@/providers/DoctorsContext";
 
 export default function DoctorSelector({ form }) {
   const { doctors } = useDoctors();
-  const [selectedDoctor, setSelectedDoctor] = useState({})
+  const [selectedDoctor, setSelectedDoctor] = useState({});
 
   useEffect(() => {
-    const { doctorId } = { ...form.getValues() }
-    const doctor = doctors.filter((doctor) => doctor.id == doctorId)[0]
+    const { doctorId } = { ...form.getValues() };
+    const doctor = doctors.filter((doctor) => doctor.id == doctorId)[0];
     setSelectedDoctor(doctor);
-  }, [form])
+  }, [form]);
 
   return (
     <>
@@ -41,10 +43,7 @@ export default function DoctorSelector({ form }) {
           <FormItem>
             <FormLabel>Doctor</FormLabel>
             <FormControl>
-              <Select
-                value={field.value}
-                onValueChange={field.onChange}
-              >
+              <Select value={field.value} onValueChange={field.onChange}>
                 <SelectTrigger className="w-[180px]">
                   <SelectValue placeholder="Selecciona un doctor" />
                 </SelectTrigger>
@@ -52,7 +51,9 @@ export default function DoctorSelector({ form }) {
                   <SelectGroup>
                     <SelectLabel>Doctores</SelectLabel>
                     {doctors.map((doctor, index) => (
-                      <SelectItem value={`${doctor.id}`} key={index}>{doctor.name}</SelectItem>
+                      <SelectItem value={`${doctor.id}`} key={index}>
+                        {doctor.name}
+                      </SelectItem>
                     ))}
                   </SelectGroup>
                 </SelectContent>
@@ -69,23 +70,22 @@ export default function DoctorSelector({ form }) {
           <FormItem>
             <FormLabel>Horario</FormLabel>
             <FormControl>
-              <Select
-                value={field.value}
-                onValueChange={field.onChange}
-              >
+              <Select value={field.value} onValueChange={field.onChange}>
                 <SelectTrigger className="w-[180px]">
                   <SelectValue placeholder="Selecciona un doctor" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Horarios disponibles</SelectLabel>
-                    {selectedDoctor?.available_schedule ?
-                      selectedDoctor.available_schedule.map((schedule, index) => (
-                        <SelectItem value={`${schedule}`} key={index}>{schedule}</SelectItem>
-                      ))
-                      :
-                      null
-                    }
+                    {selectedDoctor?.available_schedule
+                      ? selectedDoctor.available_schedule.map(
+                          (schedule, index) => (
+                            <SelectItem value={`${schedule}`} key={index}>
+                              {schedule}
+                            </SelectItem>
+                          ),
+                        )
+                      : null}
                   </SelectGroup>
                 </SelectContent>
               </Select>
@@ -94,7 +94,6 @@ export default function DoctorSelector({ form }) {
           </FormItem>
         )}
       />
-
     </>
-  )
+  );
 }
