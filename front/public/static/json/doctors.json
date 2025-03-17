@@ -1,0 +1,139 @@
+[
+  {
+     "id": 1,
+    "name": "Dr. ricardo",
+    "specialty": "Cirujano",
+    "image": "public/static/img/doctor_1.png",
+    "experience": 3,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 60000,
+    "available_schedule": [
+      "2025-01-10 12:00:00",
+      "2025-01-10 12:30:00",
+      "2025-01-10 13:00:00"
+    ]
+  },
+  {
+     "id": 2,
+    "name": "Dr. luis",
+    "specialty": "Cirujano",
+    "image": "public/static/img/doctor_2.png",
+    "experience": 10,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 68000,
+    "available_schedule": [
+      "2025-01-10 12:00:00",
+      "2025-02-10 17:30:00",
+      "2025-03-10 17:00:00"
+    ]
+  },
+  {
+     "id": 3,
+    "name": "Dr. victor",
+    "specialty": "Cirujano",
+    "image": "public/static/img/doctor_3.png",
+    "experience": 2,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 65000,
+    "available_schedule": [
+      "2025-03-10 18:00:00",
+      "2025-03-10 18:30:00",
+      "2025-03-10 19:00:00"
+    ]
+  },
+  {
+     "id": 4,
+    "name": "Dr. lucio",
+    "specialty": "Cirujano",
+    "image": "public/static/img/doctor_4.png",
+    "experience": 4,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 75000,
+    "available_schedule": [
+      "2025-01-10 13:00:00",
+      "2025-01-10 14:30:00",
+      "2025-01-10 15:00:00"
+    ]
+  },
+  {
+     "id": 5,
+    "name": "Dr. juan",
+    "specialty": "Traumatología.",
+    "image": "public/static/img/doctor_1.png",
+    "experience": 7,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 50000,
+    "available_schedule": [
+      "2025-04-10 10:00:00",
+      "2025-04-10 10:30:00",
+      "2025-04-10 11:00:00"
+    ]
+  },
+  {
+     "id": 6,
+    "name": "Dr. pedro",
+    "specialty": "Otorrinolaringología.",
+    "image": "public/static/img/doctor_2.png",
+    "experience": 5,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 90000,
+    "available_schedule": [
+      "2025-05-10 11:00:00",
+      "2025-05-10 12:30:00",
+      "2025-06-10 13:00:00"
+    ]
+  },
+  {
+     "id": 7,
+    "name": "Dr. josé",
+    "specialty": "Kinesiología.",
+    "image": "public/static/img/doctor_3.png",
+    "experience": 8,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 120000,
+    "available_schedule": [
+      "2025-01-10 14:00:00",
+      "2025-01-10 14:30:00",
+      "2025-01-10 15:00:00"
+    ]
+  },
+  {
+     "id": 8,
+    "name": "Dr. eduardo",
+    "specialty": "Gediatría.",
+    "image": "public/static/img/doctor_4.png",
+    "experience": 10,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 80000,
+    "available_schedule": [
+      "2025-02-10 12:00:00",
+      "2025-05-10 12:30:00",
+      "2025-07-10 13:00:00"
+    ]
+  }
+]
+

@@ -1,0 +1,87 @@
+[
+  {
+     "id": 9,
+    "name": "Dr. juancho",
+    "specialty": "Cirujano",
+    "image": "public/static/img/doctor_1.png",
+    "experience": 3,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 60000,
+    "available_schedule": [
+      "2025-01-10 12:00:00",
+      "2025-01-10 12:30:00",
+      "2025-01-10 13:00:00"
+    ]
+  },
+  {
+     "id": 10,
+    "name": "Dr. Riquelme",
+    "specialty": "Cirujano",
+    "image": "public/static/img/doctor_2.png",
+    "experience": 10,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 68000,
+    "available_schedule": [
+      "2025-01-10 12:00:00",
+      "2025-02-10 17:30:00",
+      "2025-03-10 17:00:00"
+    ]
+  },
+  {
+     "id": 11,
+    "name": "Dr. Victor",
+    "specialty": "Cirujano",
+    "image": "public/static/img/doctor_3.png",
+    "experience": 2,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 65000,
+    "available_schedule": [
+      "2025-03-10 18:00:00",
+      "2025-03-10 18:30:00",
+      "2025-03-10 19:00:00"
+    ]
+  },
+  {
+     "id": 12,
+    "name": "Dr. Bruno",
+    "specialty": "Cirujano",
+    "image": "public/static/img/doctor_4.png",
+    "experience": 4,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 75000,
+    "available_schedule": [
+      "2025-01-10 13:00:00",
+      "2025-01-10 14:30:00",
+      "2025-01-10 15:00:00"
+    ]
+  },
+  {
+     "id": 13,
+    "name": "Dr. Díaz",
+    "specialty": "Traumatología.",
+    "image": "public/static/img/doctor_1.png",
+    "experience": 7,
+    "diplomas": {
+      "titulo": "universidad de chile",
+      "magister": "pointificia universidad católica"
+    },
+    "hour_price": 50000,
+    "available_schedule": [
+      "2025-04-10 10:00:00",
+      "2025-04-10 10:30:00",
+      "2025-04-10 11:00:00"
+    ]
+  }
+]
