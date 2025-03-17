@@ -34,11 +34,3 @@ jobs:
 
       - name: Run Vitest
         run: npm run test
-
-      - name: Upload test results
-        uses: actions/upload-artifact@v3
-        if: always()
-        with:
-          name: test-results
-          path: ./front/coverage/
-          retention-days: 5
