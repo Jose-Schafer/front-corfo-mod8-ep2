@@ -15,4 +15,9 @@ export default defineConfig({
       "X-FRAME-OPTIONS": "DENY",
     },
   },
+  test: {
+    globals: true,
+    environment: "node", // or 'jsdom' if testing browser-based code
+    includeSource: ["src/**/*.{ts,tsx}"],
+  },
 });
