@@ -8,3 +8,6 @@
 ```sh
 npm run test
 ```
+
+# Github actions
+Ver las corridas en github actions.
