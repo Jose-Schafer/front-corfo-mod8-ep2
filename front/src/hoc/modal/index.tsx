@@ -6,6 +6,7 @@ interface ModalProps {
   onClose: () => void;
 }
 
+
 interface WithModalProps {
   openModal: (content: ReactNode) => void;
 }
