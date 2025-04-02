@@ -20,7 +20,7 @@
     "id": 2,
     "name": "Dr. luis",
     "specialty": "Cirujano",
-    "image": "/static/img/doctor_2.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_2.png",
     "experience": 10,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -37,7 +37,7 @@
     "id": 3,
     "name": "Dr. victor",
     "specialty": "Cirujano",
-    "image": "public/static/img/doctor_3.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_3.png",
     "experience": 2,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -54,7 +54,7 @@
     "id": 4,
     "name": "Dr. lucio",
     "specialty": "Cirujano",
-    "image": "public/static/img/doctor_4.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_4.png",
     "experience": 4,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -71,7 +71,7 @@
     "id": 5,
     "name": "Dr. juan",
     "specialty": "Traumatología.",
-    "image": "public/static/img/doctor_1.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_1.png",
     "experience": 7,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -88,7 +88,7 @@
     "id": 6,
     "name": "Dr. pedro",
     "specialty": "Otorrinolaringología.",
-    "image": "public/static/img/doctor_2.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_2.png",
     "experience": 5,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -105,7 +105,7 @@
     "id": 7,
     "name": "Dr. josé",
     "specialty": "Kinesiología.",
-    "image": "public/static/img/doctor_3.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_3.png",
     "experience": 8,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -122,7 +122,7 @@
     "id": 8,
     "name": "Dr. eduardo",
     "specialty": "Gediatría.",
-    "image": "public/static/img/doctor_4.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_4.png",
     "experience": 10,
     "diplomas": {
       "titulo": "universidad de chile",

@@ -1,4 +1,4 @@
-import { routes } from '@/config/routes'
+import { routes } from "@/config/routes";
 
 export default function Footer() {
   return (
@@ -9,12 +9,16 @@ export default function Footer() {
 
         {/* Contact Information */}
         <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-2">Contacto y Redes Sociales</h3>
+          <h3 className="text-xl font-semibold mb-2">
+            Contacto y Redes Sociales
+          </h3>
           <p className="mb-4">
-            Nos comprometemos a brindarte la mejor atención médica. Si tienes alguna consulta o deseas agendar una cita, no dudes en contactarnos.
+            Nos comprometemos a brindarte la mejor atención médica. Si tienes
+            alguna consulta o deseas agendar una cita, no dudes en contactarnos.
           </p>
           <p>
-            <strong>Dirección:</strong> Avenida Principal 123, Ciudad, País <br />
+            <strong>Dirección:</strong> Avenida Principal 123, Ciudad, País{" "}
+            <br />
             <strong>Teléfono:</strong> +56 9 1234 5678 <br />
             <strong>Email:</strong> contacto@hospital.com
           </p>
@@ -24,13 +28,17 @@ export default function Footer() {
         <ul className="flex justify-center space-x-6 mb-8">
           {routes.map((route, index) => (
             <li key={index}>
-              <a href={route.path} className="hover:underline">{route.text}</a>
+              <a href={route.path} className="hover:underline">
+                {route.text}
+              </a>
             </li>
           ))}
         </ul>
 
         {/* Social Media Links */}
-        <h3 className="text-xl font-semibold mb-4">Síguenos en nuestras redes sociales</h3>
+        <h3 className="text-xl font-semibold mb-4">
+          Síguenos en nuestras redes sociales
+        </h3>
         <div className="flex justify-center space-x-6">
           <a
             href="https://www.facebook.com/hospital"
@@ -39,7 +47,7 @@ export default function Footer() {
             className="hover:opacity-80"
           >
             <img
-              src="static/img/facebook-icon.png"
+              src="https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/facebook-icon.png"
               alt="Facebook"
               className="w-8 h-8"
             />
@@ -51,7 +59,7 @@ export default function Footer() {
             className="hover:opacity-80"
           >
             <img
-              src="static/img/twitter-icon.png"
+              src="https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/twitter-icon.png"
               alt="Twitter"
               className="w-8 h-8"
             />
@@ -63,7 +71,7 @@ export default function Footer() {
             className="hover:opacity-80"
           >
             <img
-              src="static/img/instagram-icon.png"
+              src="https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/instagram-icon.png"
               alt="Instagram"
               className="w-8 h-8"
             />
@@ -73,4 +81,3 @@ export default function Footer() {
     </footer>
   );
 }
-

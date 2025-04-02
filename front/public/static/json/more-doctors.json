@@ -1,9 +1,9 @@
 [
   {
-     "id": 9,
+    "id": 9,
     "name": "Dr. juancho",
     "specialty": "Cirujano",
-    "image": "public/static/img/doctor_1.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_1.png",
     "experience": 3,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -17,10 +17,10 @@
     ]
   },
   {
-     "id": 10,
+    "id": 10,
     "name": "Dr. Riquelme",
     "specialty": "Cirujano",
-    "image": "public/static/img/doctor_2.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_2.png",
     "experience": 10,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -34,10 +34,10 @@
     ]
   },
   {
-     "id": 11,
+    "id": 11,
     "name": "Dr. Victor",
     "specialty": "Cirujano",
-    "image": "public/static/img/doctor_3.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_3.png",
     "experience": 2,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -51,10 +51,10 @@
     ]
   },
   {
-     "id": 12,
+    "id": 12,
     "name": "Dr. Bruno",
     "specialty": "Cirujano",
-    "image": "public/static/img/doctor_4.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_4.png",
     "experience": 4,
     "diplomas": {
       "titulo": "universidad de chile",
@@ -68,10 +68,10 @@
     ]
   },
   {
-     "id": 13,
+    "id": 13,
     "name": "Dr. Díaz",
     "specialty": "Traumatología.",
-    "image": "public/static/img/doctor_1.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_1.png",
     "experience": 7,
     "diplomas": {
       "titulo": "universidad de chile",
