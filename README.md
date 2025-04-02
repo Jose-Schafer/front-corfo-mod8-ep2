@@ -8,3 +8,12 @@
 ```sh
 npm run test
 ```
+
+# Github actions
+Ver las corridas en github actions.
+
+# Ramas
+Se creó la rama `develop` para trabajar en el proyecto.
+`main` será la rama estable de producción.
+
+La rama `feature/add-space` simula la creación de un feature que es mergeado contra develop
