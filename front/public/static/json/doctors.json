@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Dr. ricardo",
     "specialty": "Cirujano",
-    "image": "/static/img/doctor_1.png",
+    "image": "https://raw.githubusercontent.com/Jose-Schafer/front-corfo-mod8-ep2/refs/heads/main/front/public/static/img/doctor_1.png",
     "experience": 3,
     "diplomas": {
       "titulo": "universidad de chile",
